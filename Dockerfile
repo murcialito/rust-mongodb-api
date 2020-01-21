@@ -1,0 +1,1 @@
+FROM rust:1.40 as builder
