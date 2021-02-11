@@ -2,7 +2,7 @@
 
 pub mod handler;
 pub mod repository;
-use mongodb::bson;
+use mongodb as bson;
 use serde::{Serialize, Deserialize};
 
 #[derive(Serialize, Deserialize, Debug, Clone)]
