@@ -3,6 +3,7 @@ use crate::customers::{Customer, InsertableCustomer};
 use crate::mongo_connection::Pool;
 use r2d2_mongodb::mongodb::db::ThreadedDatabase;
 use mongodb::{bson, coll::results::DeleteResult, doc, error::Error, oid::ObjectId}; 
+use mongodb as bson;
 
 const COLLECTION: &str = "customers";
 
